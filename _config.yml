@@ -29,6 +29,9 @@ search:
 # Footer
 footer_content: "GitHub 101 Activities &copy; 2026"
 
+# Disable "This site is open source" link
+gh_edit_link: false
+
 # Exclude from processing
 exclude:
   - Gemfile
