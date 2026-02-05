@@ -1,0 +1,38 @@
+# Site settings
+title: GitHub 101 Activities
+description: Educational activities for teachers and students learning GitHub
+url: "https://metzinaround.github.io"
+baseurl: "/activities.github.io"
+
+# Theme - using remote_theme to bypass GitHub Pages restrictions
+remote_theme: just-the-docs/just-the-docs
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# just-the-docs theme settings
+color_scheme: light
+
+# Navigation
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# Footer
+footer_content: "GitHub 101 Activities &copy; 2026"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor/
