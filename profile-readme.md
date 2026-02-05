@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creating Your First Repository
+title: Creating A Profile Readme
 nav_order: 2
 ---
 # Lesson Plan: Creating Your Profile README on GitHub
@@ -40,7 +40,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 ### 3\. Create a New Branch
 
 1. At the bottom left of the editor, find where it says `main` (the default branch). 
-![image of the button at the bottom for making a new branch](assets/branch_1.png)
+![image of the button at the bottom for making a new branch](assets/branch.png)
 2. Click `main`, then click **“Create new branch”** from the menu.  
 ![image of the dropdown menu that shows up in the web editor when you click main at the bottom.](assets/new_branch_bar.png)
 3. Type a name for your branch in the box, such as `my-first-profile-edit`, and press Enter.  
@@ -61,8 +61,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 3. **Insert a picture about yourself or interests using HTML\!**  
    For help, see:  
    - [Markdown Images Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)  
-   - [How to embed an image in Markdown (YouTube)](https://www.youtube.com/watch?v=2ajWUuPR694)  
-4. When done, click the **Save** icon (disk) at the top.
+   - [How to embed an image in Markdown (YouTube)](https://www.youtube.com/watch?v=2ajWUuPR694)
 
 ---
 
@@ -80,7 +79,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 1. Back in your repository page on GitHub.com, click the "Pull Requests" tab.  
 2. Click the green **"New pull request"** button.  
-3. Make sure the pull request compares your branch (*e.g.*, `my-first-profile-edit`) into the `main` branch.  
+3. Make sure the pull request is merging your branch (*e.g.*, `my-first-profile-edit`) into the `main` branch.  
 4. Write a brief description for your pull request:  
    - Example: “Added my introduction and profile info to README.”  
 5. Click **Create pull request**.  

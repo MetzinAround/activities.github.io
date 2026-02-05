@@ -12,7 +12,7 @@ A collection of hands-on activities to help teachers and students learn GitHub f
 
 ## Getting Started
 
-These activities are designed to be completed in sequence, building your Git and GitHub skills step by step.
+These activities are designed to be completed in sequence, building your Git and GitHub skills step by step. Some of them are solo activities and some are dseigned for group work. 
 
 ### What You'll Learn
 
@@ -24,17 +24,6 @@ These activities are designed to be completed in sequence, building your Git and
 
 ---
 
-## Activities
-
-Browse the sidebar to explore available activities. Each activity includes:
-
-- **Objectives**: What you'll accomplish
-- **Prerequisites**: What you should know first
-- **Step-by-step instructions**: Guided walkthrough
-- **Challenges**: Optional extensions to test your skills
-
----
-
 ## For Teachers
 
-These materials are free to use and adapt for your classroom. Each activity is self-contained and can be completed in 15-30 minutes.
+These materials are free to use and adapt for your classroom. 
