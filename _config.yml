@@ -1,8 +1,8 @@
 # Site settings
 title: GitHub 101 Activities
 description: Educational activities for teachers and students learning GitHub
-url: "https://metzinaround.github.io"
-baseurl: "/activities.github.io"
+url: "https://learnwithpj.com"
+baseurl: 
 
 # Theme - using remote_theme to bypass GitHub Pages restrictions
 remote_theme: just-the-docs/just-the-docs
