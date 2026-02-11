@@ -2,6 +2,7 @@
 layout: default
 title: Creating A Profile Readme
 nav_order: 2
+permalink: /profile-readme/
 ---
 # Lesson Plan: Creating Your Profile README on GitHub
 
@@ -40,9 +41,9 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 ### 3\. Create a New Branch
 
 1. At the bottom left of the editor, find where it says `main` (the default branch). 
-![image of the button at the bottom for making a new branch](assets/branch.png)
+![image of the button at the bottom for making a new branch](/assets/branch.png)
 2. Click `main`, then click **“Create new branch”** from the menu.  
-![image of the dropdown menu that shows up in the web editor when you click main at the bottom.](assets/new_branch_bar.png)
+![image of the dropdown menu that shows up in the web editor when you click main at the bottom.](/assets/new_branch_bar.png)
 3. Type a name for your branch in the box, such as `my-first-profile-edit`, and press Enter.  
 4. Confirm that you are now working in your new branch (you should see its name at the bottom left).
 
@@ -68,7 +69,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 ### 5\. Stage and Commit Your Changes
 
 1. Click the **Source Control** icon on the left (it looks like a branch).  
-![image](assets/source_control_button.png)
+![image](/assets/source_control_button.png)
 2. Click the plus sign `+` next to your README.md change to stage it.  
 3. Enter a short message describing your work, such as “Added my Profile README info.”  
 4. Click **Commit & Push**.

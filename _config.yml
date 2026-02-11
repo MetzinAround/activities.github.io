@@ -39,3 +39,4 @@ exclude:
   - LICENSE
   - README.md
   - vendor/
+  - .gitignore
