@@ -2,6 +2,7 @@
 layout: default
 title: Collaborative Activity
 nav_order: 3
+permalink: /collaborative/
 ---
 
 
@@ -130,7 +131,7 @@ To avoid merge conflicts, each person will create a **different file name**.
 2. Right-click in that space and choose **“New File”**  
    - ALTERNATE NEW FILE CREATION: There is a small icon that looks like a page with a plus sign on it. This will create a new file as well. Notice the other icons to the right of the circled one below. They are for creating new folders/directories, refreshing the file explorer, and collapsing all directories. 
 
-   ![image](this will be explorer icon)
+   ![image](/assets/explorer%20icon.png)
 
 #### 3\. Name the file
 
@@ -164,7 +165,7 @@ To avoid merge conflicts, each person will create a **different file name**.
 
 1. In the web editor, look at the **left sidebar** and click the **Source Control** icon, circled in the picture below.
 
-![image](this will be giticon)
+![image](/assets/giticon.png)
 
 2. At the top of the Source Control panel, you will see a box labeled **“Message”**.  
 3. Click in that box and type a short commit message, for example:  
@@ -255,9 +256,9 @@ You have now opened a PR from your branch into `main`.
 At this point, you should be able to see everyone’s branches on the main page of the repo and everyone’s PRs. 
 
 
-![image](this will be branches) 
+![image](/assets/branches.png) 
 
-![image](this will be pullrequests)
+![image](/assets/pullrequests.png)
 
 Each group member should review at least one other member’s PR.
 
