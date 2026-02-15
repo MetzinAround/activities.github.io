@@ -17,18 +17,10 @@ Each person will:
 - Merge without causing any merge conflicts.
 
 This activity follows GitHub’s shared repository workflow, where collaborators create branches in one repository and use pull requests to propose and review changes. 
+
 ---
 
-## 1\. Prerequisites
-
-Learners should:
-
-- Have a **GitHub account** (Free or Pro).  
-- Be able to **sign in** to GitHub at least.  
-- Have a **web browser** (Chrome, Edge, Firefox, Safari).  
-- Have been added as **collaborators** to a shared practice repository (the instructor can own this repository).
-
-Helpful GitHub docs:
+## Helpful GitHub docs:
 
 - About branches ([docs.github.com](https://docs.github.com/enterprise-cloud%40latest/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests?utm_source=openai))  
 - About pull requests ([docs.github.com](https://docs.github.com/en/enterprise-server%403.16/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests?utm_source=openai))
@@ -37,21 +29,7 @@ Helpful GitHub docs:
 
 ---
 
-## 2\. Learning Goals
-
-By the end of this activity, learners will be able to:
-
-1. Explain why teams use **branches** when working together.  
-2. Create a **personal branch** in a shared repository.  
-3. Create and edit a **Markdown file** in the GitHub web editor.  
-4. Open a **pull request** from their branch into `main`.  
-5. Review and **merge** pull requests one-by-one **without merge conflicts**, by:  
-   - Keeping each file unique per person.  
-   - Waiting for each PR to finish merging before starting another if they touch the same place.
-
----
-
-## 3\. Instructions for Learners
+## Instructions for Learners
 
 ### Part A – Creating and Sharing the Repository
 
@@ -71,8 +49,8 @@ By the end of this activity, learners will be able to:
    - On the repository page, click the **“Settings”** tab.  
    - In the left sidebar, click **“Collaborators”**.  
    - Click **“Add people”**.  
-   - Type each group member’s GitHub username and invite them.  
-   - Learners must accept the email or web invitation before they can push changes.  
+   - Type each group member’s GitHub username (for example `CindyLouWho`) and invite them.  
+   - Learners must accept the email or web invitation (in notifications near the top right of each page) before they can push changes.  
        
 3. **Persons 2- 4: Accept the invitation**  
      
@@ -82,7 +60,7 @@ By the end of this activity, learners will be able to:
 
 ---
 
-### Part B – Open Web Editor and Create Your Personal Branch (Persons 1 \- 4\)
+### Part B – Open Web Editor and Create Your Personal Branch (Everyone)
 
 You will create a branch that only you use.
 
@@ -97,9 +75,6 @@ You will create a branch that only you use.
    - Click the branch name.  
    - In the small box that appears at the top, click **“Create new branch…”**.  
    - In the text box that appears, **type your branch name**. Use this pattern:
-
-   
-
      - `yourname-branch`, for example:  
        - `cindy-branch`  
        - `horton-branch`  
@@ -111,11 +86,11 @@ You have now created your own branch, all work will be done on this branch unles
 
 ---
 
-### Part C – Create Your Personal Markdown File (Persons 1 \- 4\)
+### Part C – Create Your Personal Markdown File (Everyone)
 
 To avoid merge conflicts, each person will create a **different file name**.
 
-#### 1\. Make sure you are on your branch
+#### Make sure you are on your branch
 
 1. Look at the **bottom-left corner** of the web editor.  
 2. You should see your branch name there, for example: `cindy-branch`.  
@@ -125,15 +100,15 @@ To avoid merge conflicts, each person will create a **different file name**.
    - Click **your branch name** (for example, `cindy-branch`).  
    - Check again at the bottom-left to confirm it now shows **your branch**.
 
-#### 2\. Create a new file
+#### Create a new file
 
 1. In the **Explorer** panel on the left (the list of files), move your mouse into the empty space under the last file.  
 2. Right-click in that space and choose **“New File”**  
    - ALTERNATE NEW FILE CREATION: There is a small icon that looks like a page with a plus sign on it. This will create a new file as well. Notice the other icons to the right of the circled one below. They are for creating new folders/directories, refreshing the file explorer, and collapsing all directories. 
 
-   ![image](/assets/explorer%20icon.png)
+   ![image](/assets/explorer_icon.png)
 
-#### 3\. Name the file
+#### Name the file
 
 1. A small text box appears for the file name.  
 2. Type a unique file name using this pattern: `yourname.md`  
@@ -141,10 +116,10 @@ To avoid merge conflicts, each person will create a **different file name**.
    - `cindy.md`  
    - `horton.md`  
    - `martha.md`  
-3. Press **Enter** on your keyboard.  
-   Make sure **no two people use the same name**.
+3. Press **Enter** on your keyboard.
+4. Make sure **no two people use the same name**.
 
-#### 4\. Write some content in Markdown
+#### Write some content in Markdown
 
 1. After you press Enter, a blank editor opens for your new file.  
      
@@ -158,27 +133,27 @@ To avoid merge conflicts, each person will create a **different file name**.
 5
 ```
 
-3. NOTE: the numbers are the line numbers. Do not type the numbers.   
-4. Replace the word **“Cindy”** and the bullet points with **your own** information.
+NOTE: the numbers are the line numbers. Do not type the numbers.   
+3. Replace the word **“Cindy”** and the bullet points with **your own** information.
 
-#### 5\. Save (commit) the new file to your branch
+#### Commit the new file to your branch
 
 1. In the web editor, look at the **left sidebar** and click the **Source Control** icon, circled in the picture below.
 
 ![image](/assets/giticon.png)
 
 2. At the top of the Source Control panel, you will see a box labeled **“Message”**.  
-3. Click in that box and type a short commit message, for example:  
-   `Add cindy profile file`  
-4. Below the message box, click the **“+” (plus)** icon next to **“Changes”** or next to your new file name to stage it.  
-5. After staging, click the checkmark icon **“Commit”** above the message box.  
+3. Below the message box, click the **“+” (plus)** icon next to **“Changes”** or next to your new file name to stage it.  
+4. Click in the message box and type a short commit message, for example:  
+   `Add Cindy's file`   
+5. Click the green "Commit & Push" button.  
 6. A small message may appear asking if you want to stage and commit all changes; if it does, click **“Yes”**.
 
-Your file is now **saved (committed) on your personal branch**, but it is **not in `main` yet**.
+Your file is now ** commited on your personal branch**, but it is **not in `main` yet**.
 
 ---
 
-### Part D – Check That Everyone’s Work Is Separate (Persons 1 \- 4\)
+### Part D – Check That Everyone’s Work Is Separate (Everyone)
 
 As a group, quickly confirm:
 
@@ -192,11 +167,11 @@ As a group, quickly confirm:
    - `martha.md`  
 3. No one edited the same existing file (such as `README.md`).
 
-Because each person works in a **different file on their own branch**, Git will be able to merge all pull requests into `main` **without merge conflicts**.
+Because each person works in a **different file on their own branch**, Git will be able to merge all pull requests into `main` **without [merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)**.
 
 ---
 
-### Part E – Open a Pull Request (PR) for Your Branch (Persons 1 \- 4\)
+### Part E – Open a Pull Request (PR) for Your Branch (Everyone)
 
 Now you will propose to merge your branch into `main` using a pull request.
 
@@ -251,7 +226,7 @@ You have now opened a PR from your branch into `main`.
 
 ---
 
-### Part F – Review Each Other’s Pull Requests (Persons 1 \- 4\)
+### Part F – Review Each Other’s Pull Requests (Everyone)
 
 At this point, you should be able to see everyone’s branches on the main page of the repo and everyone’s PRs. 
 
@@ -278,7 +253,7 @@ Each group member should review at least one other member’s PR.
 
 ---
 
-### Part G – Merge Pull Requests Without Conflicts (Person 1\)
+### Part G – Merge Pull Requests Without Conflicts (Person 1)
 
 Because each person created a **different file**, GitHub can merge all pull requests cleanly.
 
@@ -292,7 +267,7 @@ For each pull request:
 3. Scroll down to the bottom of the Conversation tab.  
 4. If everything looks good, click the green **“Merge pull request”** button.  
 5. In the box that opens, click **“Confirm merge”**.  
-6. Repeat for each team member’s PR.
+6. Repeat this section for each team member’s PR.
 
 ---
 
@@ -317,18 +292,7 @@ After all PRs are merged:
 
 ---
 
-## 6\. Reflection / Discussion Questions
-
-Discuss these as a group or write answers in your Markdown file:
-
-1. Why did we create **separate branches** instead of editing `main` directly?  
-2. How did having **one file per person** prevent merge conflicts?  
-3. Where in GitHub did you see information about what changed in a pull request?  
-4. How could this workflow scale to a larger project with many files?
-
----
-
-## 7\. Best Practices and Tips
+## Best Practices and Tips
 
 These are not strictly required to complete the activity, but they will help you as you continue to use GitHub.
 
@@ -337,8 +301,6 @@ These are not strictly required to complete the activity, but they will help you
    - Use a separate branch for each feature or person.  
    - This keeps work organized and makes it easier to review.
 
-   
-
 2. **Use descriptive branch names**  
      
    - Instead of `test1`, use:  
@@ -346,21 +308,15 @@ These are not strictly required to complete the activity, but they will help you
      - `horton-update-readme`  
    - This helps teammates understand what each branch is for. ([worldbank.github.io](https://worldbank.github.io/template/docs/git-workflows.html?utm_source=openai))
 
-   
-
 3. **Keep branches up to date**  
      
    - On larger projects, if `main` changes often, you may need to update your branch from `main` before opening or merging a PR. (For this simple activity, we avoided conflicts by editing different files.)
-
-   
 
 4. **Clear pull request titles and descriptions**  
      
    - Write titles that describe what the PR does:  
      - “Add cindy profile markdown file” is better than “Update stuff”.  
    - In the description, explain **why** you made the change, not just what you did.
-
-   
 
 5. **Review before merging**  
      
@@ -370,15 +326,11 @@ These are not strictly required to complete the activity, but they will help you
      - Missing information.  
      - Anything confusing.
 
-   
-
 6. **Use the web editor for simple changes**  
      
    - For quick edits like this activity, you can stay entirely in the **GitHub web interface**:  
      - Use **“Add file → Create new file”** and **“Edit this file”** buttons.  
    - You do **not** need to set up Git on your computer for basic practice.
-
-   
 
 7. **One PR should not touch too many unrelated things**  
      
@@ -387,7 +339,7 @@ These are not strictly required to complete the activity, but they will help you
 
 ---
 
-## 8\. Extension Ideas (Optional)
+## Extension Ideas (Optional)
 
 If your group finishes early, try one or more of these:
 
