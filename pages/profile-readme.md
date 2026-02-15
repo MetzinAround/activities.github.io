@@ -14,7 +14,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 ## Instructions
 
-### 1\. Create Your Special Profile Repository
+### Create Your Special Profile Repository
 
 1. **Log in to GitHub.**  
 2. In the top-right corner, click your profile picture and select **"Your repositories"**.  
@@ -29,16 +29,18 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 ---
 
-### 2\. Open the Repository in GitHub Web Editor
+### Open the Repository in GitHub Web Editor
 
 1. On your new repository’s page, press the period (`.`) key on your keyboard.  
    This opens the GitHub web-based editor — a tool that looks and works like VSCode.  
-2. You’ll see your README.md file already created and ready to edit.  
-3. Note the comments in the file that disappear when they are rendered. Comments in Markdown start with `<!--` and end with `-->`. If you remove those symbols, the markdown inside them will “Render” and show up when your profile readme is live. 
+2. It may ask you if you want to log in with the profile on GitHub. Click the affirmative option.  
+3. You’ll see your README.md file already created and showing in a preview already rendered. 
+4. Click the readme in the file explorer to open it in edit mode.   
+5. Note the comments in the file that disappear when they are rendered. Comments in Markdown start with `<!--` and end with `-->`. If you remove those symbols, the markdown inside them will “Render” and show up when your profile readme is live. 
 
 ---
 
-### 3\. Create a New Branch
+### Create a New Branch
 
 1. At the bottom left of the editor, find where it says `main` (the default branch). 
 ![image of the button at the bottom for making a new branch](/assets/branch.png)
@@ -49,24 +51,26 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 ---
 
-### 4\. Edit Your Profile README
+### Edit Your Profile README
+
+The Profile README is written in Markdown, a markup language that lets you format text with text! If you're brand new to Markdown, check out [GitHub Flavored Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) for guides on correct usage. Markdown is an important secondary skill in modern tech, as it's used in a lot of different places and is very valuable to know. 
 
 1. Click on the **README.md** file to open it for editing.  
-2. Add information about yourself\! Try including:  
+2. Add information about yourself! Try including:  
    - Where you go to school (or have gone to school)  
    - The first piece of technology you owned  
    - Your hometown  
    - Your field of study or interests  
    - How people can contact you (optional)  
    - A short bio or summary about yourself  
-3. **Insert a picture about yourself or interests using HTML\!**  
+3. **Insert a picture about yourself or interests using HTML!**  
    For help, see:  
    - [Markdown Images Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)  
-   - [How to embed an image in Markdown (YouTube)](https://www.youtube.com/watch?v=2ajWUuPR694)
+   - [How to embed an image in Markdown (YouTube)](https://www.youtube.com/watch?v=2ajWUuPR694) 
 
 ---
 
-### 5\. Stage and Commit Your Changes
+### Stage and Commit Your Changes
 
 1. Click the **Source Control** icon on the left (it looks like a branch).  
 ![image](/assets/source_control_button.png)
@@ -76,7 +80,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 ---
 
-### 6\. Make a Pull Request to Merge Your Changes
+### Make a Pull Request to Merge Your Changes
 
 1. Back in your repository page on GitHub.com, click the "Pull Requests" tab.  
 2. Click the green **"New pull request"** button.  
@@ -89,7 +93,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 ---
 
-### 7\. View the Finished Result
+### View the Finished Result
 
 1. Go to your GitHub profile page by clicking your avatar, then “Your profile”.  
 2. See your new Profile README at the top of your profile\!
