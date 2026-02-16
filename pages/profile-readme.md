@@ -33,7 +33,9 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 1. On your new repository’s page, press the period (`.`) key on your keyboard.  
    This opens the GitHub web-based editor — a tool that looks and works like VSCode.  
-2. It may ask you if you want to log in with the profile on GitHub. Click the affirmative option.  
+2. It may ask you if you want to log in with the profile on GitHub. Click the affirmative option and select the correct name from the drop down. 
+![pop up asking about signing in to GitHub](/assets/sign_in_dotdev.png)
+![pop up asking user to pick the account to log in to](/assets/pick_acount_sign_in_dotdev.png) 
 3. You’ll see your README.md file already created and showing in a preview already rendered. 
 4. Click the readme in the file explorer to open it in edit mode.   
 5. Note the comments in the file that disappear when they are rendered. Comments in Markdown start with `<!--` and end with `-->`. If you remove those symbols, the markdown inside them will “Render” and show up when your profile readme is live. 
