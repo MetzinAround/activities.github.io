@@ -29,8 +29,13 @@ search:
 # Footer
 footer_content: "GitHub 101 Activities &copy; 2026"
 
-# Disable "This site is open source" link
-gh_edit_link: false
+# Enable "View source on GitHub" link
+gh_edit_link: true
+gh_edit_link_text: "Click to view originnal Markdown for this activity."
+gh_edit_repository: "https://github.com/MetzinAround/activities.github.io"
+gh_edit_branch: "main"
+gh_edit_source: ""
+gh_edit_view_mode: "blob"
 
 # Exclude from processing
 exclude:
