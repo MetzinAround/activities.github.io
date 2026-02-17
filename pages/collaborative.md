@@ -149,7 +149,7 @@ NOTE: the numbers are the line numbers. Do not type the numbers.
 5. Click the green "Commit & Push" button.  
 6. A small message may appear asking if you want to stage and commit all changes; if it does, click **“Yes”**.
 
-Your file is now ** commited on your personal branch**, but it is **not in `main` yet**.
+Your file is now **commited on your personal branch**, but it is **not in `main` yet**.
 
 ---
 
@@ -306,7 +306,7 @@ These are not strictly required to complete the activity, but they will help you
    - Instead of `test1`, use:  
      - `cindy-profile-page`  
      - `horton-update-readme`  
-   - This helps teammates understand what each branch is for. ([worldbank.github.io](https://worldbank.github.io/template/docs/git-workflows.html?utm_source=openai))
+   - This helps teammates understand what each branch is for. 
 
 3. **Keep branches up to date**  
      
