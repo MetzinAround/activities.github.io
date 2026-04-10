@@ -68,7 +68,7 @@ The Profile README is written in Markdown, a markup language that lets you forma
 3. **Insert a picture about yourself or interests using HTML!**  
    For help, see:  
    - [Markdown Images Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)  
-   - [How to embed an image in Markdown (YouTube)](https://www.youtube.com/watch?v=2ajWUuPR694) 
+   - [How to embed an image in Markdown (YouTube)](https://youtu.be/Ljj1wGFJqPY) 
 
 ---
 
