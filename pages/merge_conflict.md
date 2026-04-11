@@ -79,21 +79,20 @@ The Repo Owner will add a file directly to the `main` branch (this is intentiona
    - This opens the GitHub web editor (looks similar to VS Code in the browser).
 
 > Tip: If pressing `.` doesn’t work, make sure you clicked somewhere on the page first, and that your cursor isn’t inside a text field. You can also navigate to it by replacing the `com` in your repo url with `dev`. 
-    - https://www.github.com/besteechur/paired_work is the url for the GitHub repo
-    - https://www.github.dev/besteechur/paired_work is the url for the web editor
+    - If https://www.github.com/besteechur/paired_work is the url for the GitHub repo
+    - Then https://www.github.dev/besteechur/paired_work is the url for the web editor
 
 ### Create a new file named `lets_make_a_conflict.md`
 1. In the left file sidebar, look for an option like **New File** (or use the file explorer menu).
 2. Name the file, `lets_make_a_conflict.md`
-3. Paste or type the following template into the file (including blank lines):
+3. Paste or type the following template into the file:
 
 ```
 YOUR_NAME_HERE
 YOUR_FAVORITE_FOOD_HERE
-
 YOUR_FAVORITE_TV_SHOW_OR_MOVIE_HERE
 ```
-Make sure the third line is left blank.
+
 
 ### Commit directly to `main`
 1. Find the **Source Control** icon on the left sidebar (it usually looks like a branching icon).
@@ -107,12 +106,7 @@ Make sure the third line is left blank.
 
 ## Part D — Collaborators: “The One Change PR” (All non-owners)
 
-Both collaborators will:
-- Open the web editor
-- Create a branch
-- Add their info to the same file (to create future conflict conditions)
-- Commit & push
-- Open a Pull Request into `main`
+**Both** collaborators will should follow these steps here at the same time. 
 
 ### Open the repository and launch the web editor
 1. Go to the Repo Owner’s repository page in your browser.
@@ -134,12 +128,12 @@ You should now see your branch name in the bottom-left instead of `main`.
 2. Add your info starting on **line 5** (below the Repo Owner’s entry). Do not remove what’s already there.
 3. Format it like this:
 
+- **Line 4** [BLANK to make space between entries]
 - **Line 5**: your name  
 - **Line 6**: your favorite food  
-- **Line 7**: blank line  
-- **Line 8**: your favorite TV show or movie  
+- **Line 7**: your favorite TV show or movie  
 
-So the file should look like two “blocks” of info, one after the other, with a blank line separating them.
+So the file should look start with a blank line and then follow with the three lines of information. 
 
 ### Commit & push your changes
 1. Click the **Source Control** icon on the left sidebar.
@@ -172,7 +166,7 @@ So the file should look like two “blocks” of info, one after the other, with
 
 ## Part E — Repo Owner: Merge ONLY ONE PR
 This is after both Pull Requests have been made
-
+If you're working virtually, it helps to share your screen at this point so you others can see what the merge conflict looks like. 
 1. Go to the **Pull requests** tab in your repo.
 2. Open one of the submitted PRs.
 3. Scroll down and click the green **Merge pull request** button.
@@ -201,12 +195,11 @@ GitHub will show a conflict editor with special markers like:
 - `=======`
 - `>>>>>>>`
 
-Your job: remove the markers and make the file look how you want the final version to look.
+There may be "branch" names in there as well. However, your job is to remove the markers and make the file look how you want the final version to look. In this case, the final version of the file should have all three participants' information. 
 
 **Goal for this exercise:** the final file should include **all group members'**:
 - name
 - favorite food
-- (blank line)
 - favorite TV show/movie
 
 …and each person’s “block” should be on separate lines, readable, and not overwriting anyone else.
@@ -214,7 +207,7 @@ Your job: remove the markers and make the file look how you want the final versi
 ### Mark resolved and complete the merge
 1. When the file looks correct, click **Mark as resolved** (if shown).
 2. Click **Commit merge** (or the button GitHub shows to finalize).
-3. After that commit, click **Merge pull request** (GitHub will now allow it).
+3. After that commit, click **Merge pull request**.
 4. Confirm the merge.
 
 ---
@@ -223,6 +216,4 @@ Your job: remove the markers and make the file look how you want the final versi
 - **Use branches for all changes** (even small ones) in real teamwork. Committing to `main` directly is usually avoided outside of controlled exercises.
 - **Write descriptive commit messages** (e.g., “Add workshop participant info”).
 - **Keep PRs small and focused** (“one change PR” is great practice).
-- **Communicate before editing the same lines** to reduce conflicts (or intentionally coordinate when conflicts are expected).
-- **Use the web editor for quick edits**:
-  - Press `.` on a repo page to open it quickly in the browser editor.
+- **Communicate before editing the same lines** to reduce conflicts (or intentionally coordinate when conflicts are expected). Knowing who is working on what helps prevent merge conflicts. 
