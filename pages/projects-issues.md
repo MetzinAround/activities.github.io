@@ -1,3 +1,9 @@
+---
+layout: default
+title: Using Issues and Projects
+nav_order: 4
+permalink: /projects-issues/
+---
 # Using GitHub Projects & Issues for Group Work Organization
 
 A great way to stay organized on a team project is to use GitHub Issues and Projects. Issues let you track individual tasks, and Projects give you a visual board to see everything at once — just like a real development team would use!
