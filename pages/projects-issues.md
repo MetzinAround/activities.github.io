@@ -4,12 +4,7 @@ title: Using Issues and Projects
 nav_order: 4
 permalink: /projects-issues/
 ---
----
-layout: default
-title: Using Issues and Projects
-nav_order: 4
-permalink: /projects-issues/
----
+
 # Using GitHub Projects & Issues to Stay Organized
 
 A great way to stay on top of any project is to use GitHub Issues and Projects. Issues let you track individual tasks, and Projects give you a visual board to see everything at once — just like a real development team would use!
