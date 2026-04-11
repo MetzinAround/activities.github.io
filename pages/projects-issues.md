@@ -37,12 +37,16 @@ You'll be creating issues assigned to each of them and organizing everything usi
 Your repository is the home base for your project. Everything — your issues, your project board, and eventually your code — lives here.
 
 1. In the upper-right corner of any GitHub page, click your **profile picture**, then click **"Your repositories"**.
-2. Click the green **"New"** button in the upper right.
-3. Under **"Repository name"**, type `fake-website-learning-issues-projects`.
-4. In the **"Description"** field, type `Practice repo for Project Management`.
-5. Under Visibility, select **Public**.
-6. Make sure to toggle the box that says **"Add a README file"** — this gives the repository something to show right away and makes working in your repo possible. Skipping this step will initialize an empty repo and you'll have a bad time.
-7. Click **"Create repository"**.
+1. Click the green **"New"** button in the upper right.
+1. Choose your username from the `Owner` dropdown menu (if not already selected).
+1. Under **"Repository name"**, type `fake-website-learning-issues-projects`.
+1. In the **"Description"** field, type `Practice repo for Project Management`.
+1. Under Visibility, select **Public**.
+1. No template selected from template dropdown menu.
+1. Make sure to toggle the box that says **"Add a README file"** — this gives the repository something to show right away and makes working in your repo possible. Skipping this step will initialize an empty repo and you'll have a bad time.
+1. No .gitignore selected from .gitignore dropdown menu.
+1. No license selected from dropdown menu.
+1. Click **"Create repository"**.
 
 You now have a repository! This is home base for your project.
 
@@ -55,10 +59,11 @@ A **Project** in GitHub is like a digital bulletin board where you can see all y
 > 📖 [Learn more about GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
 1. From your repository page, click the **"Projects"** tab near the top of the page (next to Code, Issues, etc.).
-2. Click the green **"Link a project"** dropdown button, then click **"New project"**.
-3. A pop-up will appear with some layout options. Click **"Board"** to select the Kanban-style board layout, which has columns like "Todo", "In Progress", and "Done".
-4. In the **"Project name"** field at the top of that same pop-up, type `Website Project Tracker`.
-5. Click **"Create project"**.
+1. Click the green **"New project"** button.
+1. A pop-up will appear with some layout options. Click **"Board"** to select the Kanban-style board layout, which has columns like "Todo", "In Progress", and "Done".
+1. In the **"Project name"** field at the top of that same pop-up, type `Website Project Tracker`.
+1. Unclick the `Import items from repository` option if it's clicked. 
+1. Click **"Create project"**.
 
 Your project board is now created! It will be empty for now — you'll fill it up as you go through this lesson.
 
@@ -70,7 +75,7 @@ Your project board is now created! It will be empty for now — you'll fill it u
 
 > 📖 [Learn more about Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 
-1. From your repository page, click the **"Issues"** tab at the top of the page.
+1. Navigate back to your recently created repository and click the **"Issues"** tab at the top of the page.
 2. Near the top right of the Issues page, click the **"Milestones"** button (it's next to a button that says "Labels").
 3. Click the green **"New milestone"** button in the upper right.
 4. Fill in the details for your first milestone:
@@ -78,13 +83,14 @@ Your project board is now created! It will be empty for now — you'll fill it u
    - **Due date:** Click the date field and pick a date about one week from today
    - **Description:** `Get the project organized and decide on member roles`
    - Click the green **"Create milestone"** button at the bottom of the form.
-5. You'll be taken back to the Milestones list. Click **"New milestone"** again to create a second one:
+5. It should show you your newly created Milestone. Click the `Back to Milestones` link above the title of this Milestone. 
+6. Click **"New milestone"** again to create a second one:
    - **Title:** `Week 2 - Building the Site`
    - **Due date:** Pick a date about two weeks from today
    - **Description:** `Complete the main pages and content`
    - Click **"Create milestone"**.
 
-You now have two milestones. When you create issues in the next few steps, you'll attach each one to the right milestone.
+You now have two milestones. When you create issues in the next few steps, you'll attach each one to the right milestone. Stay in the Issues tab for the next steps. 
 
 ---
 ## Part 4: Create and Use Issue Labels
@@ -105,7 +111,7 @@ GitHub gives you a set of default labels automatically (like `bug`, `enhancement
    - **Label name:** `design`
    - **Description:** `Visual layout, colors, and appearance tasks`
    - **Color:** Click the small color box on the left to pick a color, or click the refresh icon 🔄 next to the color box to get a random color suggestion. Pick something that feels right for design work. 
-> HINT: Picking very different colors makes for easier visual organization.  
+> HINT: Picking very different colors for each label makes for easier visual organization later on.  
    - Click **"Create label"**.
 6. Click **"New label"** again to create a second label:
    - **Label name:** `content`
@@ -137,13 +143,13 @@ Follow these steps carefully for the first issue. You'll use the same process fo
 3. In the **"Title"** field near the top, type: `Create homepage wireframe`
 4. In the large text box below the title (the description area), type:
    > `Martha will sketch out what the homepage should look like before we start building. This includes deciding on layout, colors, and what sections to include.`
-5. Look at the right-hand sidebar on the same page. Find **"Assignees"** and click the gear icon ⚙️ next to it. A small dropdown will appear. 
->Since this is a practice exercise with fictional names, you can assign the issue to **yourself** for now. If this were a real project, you would be able to assign anyone inside you had added to the repo as a collaborator. 
-6. In that same right-hand sidebar, find **"Milestone"** and click the gear icon ⚙️ next to it. Select **"Week 1 - Planning & Setup"** from the dropdown.
-7. Use the **Labels** and add the appropriate label to the issue. This one would be **`design`**.
+5. Look at the right-hand sidebar on the same page. Find **"Assignees"** and click the gear icon ⚙️ next to it. A small dropdown will appear. (You can click anywhere in line with the gear)
+> Since this is a practice exercise with fictional names, you can assign the issue to **yourself** for now. If this were a real project, you would be able to assign anyone inside you had added to the repo as a collaborator. 
+6. Click the **Labels** section and add the appropriate label to the issue. This one would be **`design`**.
+7. Find **"Milestone"** and click. Select **"Week 1 - Planning & Setup"** from the dropdown.
 8. Click the green **"Submit new issue"** button at the bottom of the page.
 
-Your first issue is created! Notice it now appears in your Issues list with a number (like `#1`), the assignee, and the milestone attached. Additionally, labels for the issue show up alongside it in the issue view.
+Your first issue is created! If you click the `Issues` tab above you'll see a list of all your current issues. The issue you just created now appears in your Issues list with a number (like `#1`), the assignee, and the milestone attached. Additionally, labels for the issue show up alongside it in the issue view.
 
 ---
 
@@ -152,7 +158,7 @@ Your first issue is created! Notice it now appears in your Issues list with a nu
 Now create the following five issues using the same steps above. For each one:
 - Click **"New issue"** from the Issues tab
 - Fill in the title and a short description in your own words
-- Set the **Assignee** (assign to yourself for practice)
+- Set the **Assignee** (Again, since this is solo, you'll only be assigning yourself, but you would be able to assign anyone in the repo as a collaborator.)
 - Set the **Milestone** based on the table below
 - Set the **Label** based on the table below
 - Click **"Submit new issue"**
@@ -175,10 +181,14 @@ Now let's connect your issues to your Project so everything is visible in one pl
 
 > 📖 [Adding items to your project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/managing-items-in-your-project/adding-items-to-your-project)
 
-1. Go back to your project board by clicking the **"Projects"** tab in your repository, then clicking **"Website Project Tracker"**.
-2. You'll see three columns: **Todo**, **In Progress**, and **Done**. At the very bottom of the **"Todo"** column, find and click the **"+ Add item"** button.
-3. A small text input will appear. Type the `#` symbol into it. A dropdown list will pop up showing all the issues in your repository. Click on the first issue to add it to the board.
-4. Click **"+ Add item"** again and repeat for each remaining issue until all 6 are on the board.
+1. Go back to your project board by clicking the **"Projects"** tab in your repository.
+1. Click the `Link a project` button to the left of the green `+ New Project` button.
+1. Make sure `Website Project Tracker` is checked and click submit. 
+1. Click **"Website Project Tracker"** to enter into the project. 
+1. You'll see three columns: **Todo**, **In Progress**, and **Done**. Hover over the  **"Todo"** column, and find and click the **"+ Add item"** button.
+1. A small text input will appear. Type the `#` symbol into it and select the `fake-website-learning-issues-projects` repo. Click into the search bar to the right and your issues should pop up. 
+1. A dropdown list will pop up showing all the issues in your repository. Click on the first issue to add it to the board.
+1. Repeat for each remaining issue until all 6 are on the board.
 
 All your tasks are now visible as cards on the board! You can drag and drop cards between columns as work progresses.
 
@@ -199,12 +209,7 @@ You're already looking at it! Each column represents a stage of work: **Todo**, 
 2. From the options that appear, select **"Table"**.
 3. A new tab will open showing all your issues as rows in a spreadsheet-style layout. You can see each issue's title, assignee, milestone, and status all in one row — great for scanning the full list quickly.
 
-### Add a Roadmap View
-1. Click the **"+ New view"** button again (the same `+` icon from before).
-2. This time, select **"Roadmap"**.
-3. This view shows your issues laid out on a **timeline**. It's especially useful for seeing how your work is spread across time and whether your milestones are realistic.
-
-> 💬 **Reflect:** Look at all three views you just created. Ask yourself: *"Which view would I want to look at first thing during a work session? Which one would be most helpful for a check-in with the whole team?"* There's no wrong answer — different views are useful for different situations!
+> 💬 **Reflect:** Look at both views you just created. Ask yourself: *"Which view would I want to look at first thing during a work session? Which one would be most helpful for a check-in with the whole team?"* There's no wrong answer — different views are useful for different situations!
 
 ---
 
