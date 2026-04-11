@@ -4,6 +4,12 @@ title: Using Issues and Projects
 nav_order: 4
 permalink: /projects-issues/
 ---
+---
+layout: default
+title: Using Issues and Projects
+nav_order: 4
+permalink: /projects-issues/
+---
 # Using GitHub Projects & Issues to Stay Organized
 
 A great way to stay on top of any project is to use GitHub Issues and Projects. Issues let you track individual tasks, and Projects give you a visual board to see everything at once — just like a real development team would use!
@@ -17,7 +23,7 @@ In this lesson, you'll set up a mock school project **on your own**, playing the
 Before starting this lesson, you should be at least a little familiar with:
 
 - Navigation of GitHub (finding repositories, tabs, and getting around the site)
-- What a README file is (just that it's a description of a project — no coding needed)
+- Creating Repos, Pull Requests, Branches, and the GitHub Workflow
 
 **Estimated Time:** 30–45 minutes
 
@@ -38,9 +44,9 @@ Your repository is the home base for your project. Everything — your issues, y
 1. In the upper-right corner of any GitHub page, click your **profile picture**, then click **"Your repositories"**.
 2. Click the green **"New"** button in the upper right.
 3. Under **"Repository name"**, type `fake-website-learning-issues-projects`.
-4. In the **"Description"** field, type `PRactice repo for Project Management`.
+4. In the **"Description"** field, type `Practice repo for Project Management`.
 5. Under Visibility, select **Public**.
-6. MAke sure to toggle the box that says **"Add a README file"** — this gives the repository something to show right away and makes working in your repo possible. Skipping this step will intialize an empty repo and you'll have a bad time.
+6. Make sure to toggle the box that says **"Add a README file"** — this gives the repository something to show right away and makes working in your repo possible. Skipping this step will initialize an empty repo and you'll have a bad time.
 7. Click **"Create repository"**.
 
 You now have a repository! This is home base for your project.
@@ -181,7 +187,7 @@ Now let's connect your issues to your Project so everything is visible in one pl
 
 All your tasks are now visible as cards on the board! You can drag and drop cards between columns as work progresses.
 
->NOTE: You can add issues to projects while creating issues as well. When creating an issue, you can select a project in the same right hand manu where you add milestones and labels. There are multiple ways to do almost everything on GitHub! 
+>NOTE: You can add issues to projects while creating issues as well. When creating an issue, you can select a project in the same right hand menu where you add milestones and labels. There are multiple ways to do almost everything on GitHub! 
 ---
 
 ## Part 8: Explore Different Project Views
@@ -207,7 +213,7 @@ You're already looking at it! Each column represents a stage of work: **Todo**, 
 
 ---
 
-## Part 8: Update an Issue's Status
+## Part 9: Update an Issue's Status
 
 Let's simulate some progress on the project by moving issues between columns.
 
@@ -229,7 +235,7 @@ These aren't required to complete the activity, but they'll make working on GitH
 - **Everything Gets a Label** - Utilizing these project management tools help teams stay organized, and helps reduce context switching from another application to GitHub. 
 - **Check your project board at the start of every work session** — A 2-minute board check-in can replace a 20-minute status meeting.
 - **Keep issues updated constantly** - Whenever someone completes work, or even makes some progress on work, they should always add a comment to the issue to indicate what has changed. 
-- **Make new Issues for bugs, delays, and important news for the whole team** - Issues and proejct boards are for communicating between teammates. A well run team knows to check the project board and issues before pinging someone for an update. 
+- **Make new Issues for bugs, delays, and important news for the whole team** - Issues and project boards are for communicating between teammates. A well run team knows to check the project board and issues before pinging someone for an update. 
 - **Keep milestones realistic** — Don't front-load everything into Week 1. Spread the work out and adjust due dates as the project evolves.
 - **Close issues when they're done** — Once a task is truly finished, close the issue. This keeps your board clean and gives the team a sense of progress. Or, if the work is no longer relevant, close it as `Not Planned`. 
 
