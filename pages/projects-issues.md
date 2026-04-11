@@ -11,6 +11,7 @@ A great way to stay on top of any project is to use GitHub Issues and Projects. 
 
 In this lesson, you'll set up a mock school project **on your own**, playing the role of a project manager organizing tasks for a team. Even though you're working solo, everything you set up here is exactly how a real team would use it — so when it's time to collaborate, you'll already know the ropes.
 
+>NOTE: We're using four fictional names to represent partners in this project: Martha, Cindy, Horton, and Ted. While you can't assign any work to them in this, they do represent how you would use GitHub Projects with other people. However, in this solo activity, you'll be assigning issues to yourself! 
 ---
 
 ## Prerequisites
