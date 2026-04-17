@@ -6,6 +6,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: write
 
 jobs:
   check-typos:
@@ -13,5 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check for typos
-        uses: crate-ci/typos@v1
+      - name: Check typos and comment on PR
+        uses: reviewdog/action-typos@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: added
+          fail_level: any
