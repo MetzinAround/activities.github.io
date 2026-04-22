@@ -55,7 +55,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 ### Edit Your Profile README
 
-The Profile README is written in Markdown, a markup language that lets you format text with text! If you're brand new to Markdown, check out [GitHub Flavored Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) for guides on correct usage. Markdown is an important secondary skill in modern tech, as it's used in a lot of different places and is very valuable to know. 
+The Profile README is written in Markdown, a markup language that lets you format text with text! If you're brand new to Markdown, check out [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for guides on correct usage. Markdown is an important secondary skill in modern tech, as it's used in a lot of different places and is very valuable to know. 
 
 1. Click on the **README.md** file to open it for editing.  
 2. Add information about yourself! Try including:  
