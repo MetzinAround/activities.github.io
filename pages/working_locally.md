@@ -345,7 +345,7 @@ So far you've been making changes locally and pushing them up to GitHub. But wha
    ```
    Add note from GitHub.com editor
    ```
-7. Make sure **Commit directly to the `main` branch** is selected (lots of commiting to main happening here...), then click **Commit changes**.
+7. Make sure **Commit directly to the `main` branch** is selected (lots of committing to main happening here...), then click **Commit changes**.
 
 Your change is now on GitHub, but your local copy doesn't know about it yet.
 
