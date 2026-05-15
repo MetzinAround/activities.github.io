@@ -371,6 +371,8 @@ GitHub Desktop will download the change and your local `README.md` now matches w
 
 Now you'll clone a repository that **already exists on GitHub** (your Profile README) to your local computer. Cloning means making a copy of an online repo on your machine.
 
+> NOTE: This whole section is using your profile readme, a repository you created on github.com. This work assumes you haven't pulled the work locally yet and that the repo only exists on your remote repo (github.com/yourusername/yourusername). If you've already cloned the repo locally, then you likely don't need this section anyway! 
+
 ### Step 1: Find Your Profile README on GitHub
 
 1. Open your browser and go to [https://github.com](https://github.com).
