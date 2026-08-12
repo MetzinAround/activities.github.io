@@ -5,8 +5,7 @@ nav_order: 3
 permalink: /collaborative/
 ---
 
-
-# Lesson Plan: Collaborating in a Group on GitHub (3–4 People)
+# Collaborating in a Group on GitHub (3–4 People)
 
 In this activity, a group of 3–4 learners will work **together in one GitHub repository**.  
 Each person will:

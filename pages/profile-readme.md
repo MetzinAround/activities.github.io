@@ -4,9 +4,7 @@ title: Creating A Profile Readme
 nav_order: 2
 permalink: /profile-readme/
 ---
-# Lesson Plan: Creating Your Profile README on GitHub
-
-## Overview
+# Creating Your Profile README on GitHub
 
 A Profile README is a great way to introduce yourself to the GitHub community. It serves as your “About Me” page on your GitHub profile. You'll learn how to create a GitHub repository that displays a README on your profile, use Markdown to add details about yourself, and use basic GitHub workflow concepts such as branching and Pull Requests.
 
