@@ -5,8 +5,7 @@ nav_order: 3
 permalink: /collaborative/
 ---
 
-
-# Lesson Plan: Collaborating in a Group on GitHub (3–4 People)
+# Collaborating in a Group on GitHub (3–4 People)
 
 In this activity, a group of 3–4 learners will work **together in one GitHub repository**.  
 Each person will:
@@ -65,8 +64,7 @@ This activity follows GitHub’s shared repository workflow, where collaborators
 You will create a branch that only you use.
 
 1. **Open the web editor (github.dev)**  
-   - On your repository’s main page, press the **`.` (period)** key on your keyboard.  
-   - A new tab opens showing a VS Code–like editor in your browser.  
+   - On your new repository’s main page, press the period (`.`) key on your keyboard to open the Web Editor. If the Web Editor doesn't open up, you can still get there by changing the `.com` in your browser's address bar to `.dev`. Hit enter and it will open the Web Editor for you.    
    - If asked, sign in again and authorize.
 
 2. **Create a new branch**  
