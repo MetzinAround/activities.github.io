@@ -82,7 +82,7 @@ Create a new file at the top level of the repository named exactly:
 _config.yml
 ```
 To create a new file, use the button in this image. 
-![an image showing a small circle over the create a new file button in vscode.](assets/explorer_icon.png)
+![an image showing a small circle over the create a new file button in vscode.](/assets/explorer_icon.png)
 
 Paste this content:
 
