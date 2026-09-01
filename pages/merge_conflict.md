@@ -75,12 +75,7 @@ The Repo Owner will add a file directly to the `main` branch (this is intentiona
 
 ### Open the GitHub web editor
 1. Go to the main page of your repository (click the **Code** tab if needed).
-2. Press the **period key** on your keyboard: `.`
-   - This opens the GitHub web editor (looks similar to VS Code in the browser).
-
-> Tip: If pressing `.` doesn’t work, make sure you clicked somewhere on the page first, and that your cursor isn’t inside a text field. You can also navigate to it by replacing the `com` in your repo url with `dev`. 
-    - If https://www.github.com/besteechur/paired_work is the url for the GitHub repo
-    - Then https://www.github.dev/besteechur/paired_work is the url for the web editor
+2. Press the period (`.`) key on your keyboard to open the Web Editor. If the Web Editor doesn't open up, you can still get there by changing the `.com` in your browser's address bar to `.dev`. Hit enter and it will open the Web Editor for you. 
 
 ### Create a new file named `lets_make_a_conflict.md`
 1. In the left file sidebar, look for an option like **New File** (or use the file explorer menu).

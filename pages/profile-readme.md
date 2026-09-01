@@ -29,8 +29,7 @@ A Profile README is a great way to introduce yourself to the GitHub community. I
 
 ### Open the Repository in GitHub Web Editor
 
-1. On your new repository’s page, press the period (`.`) key on your keyboard.  
-   This opens the GitHub web-based editor — a tool that looks and works like VSCode.  
+1. On your new repository’s main page, press the period (`.`) key on your keyboard to open the Web Editor. If the Web Editor doesn't open up, you can still get there by changing the `.com` in your browser's address bar to `.dev`. Hit enter and it will open the Web Editor for you.   
 2. It may ask you if you want to log in with the profile on GitHub. Click the affirmative option and select the correct name from the drop down. 
 ![pop up asking about signing in to GitHub](/assets/sign_in_dotdev.png)
 ![pop up asking user to pick the account to log in to](/assets/pick_account_sign_in_dotdev.png) 

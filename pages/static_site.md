@@ -21,7 +21,7 @@ You will use Markdown files and a pre-made Jekyll theme. You do not need to writ
 
 By the end of this activity, you will know how to:
 
-- Organize your work into a static-site portfolio
+- Create a Static Site using Jekyll and GitHub Pages
 - Create pages with Markdown
 - Use a configuration file to set up a Jekyll site
 - Use front matter to control page titles and navigation
@@ -35,29 +35,28 @@ By the end of this activity, you will know how to:
 This activity assumes you have completed the [Creating Your Profile README on GitHub](https://learnwithpj.com/profile-readme/) activity, or already know how to:
 
 - Create a public GitHub repository
-- Open the GitHub web editor by pressing `.`
+- Use the GitHub Web Editor
 - Edit and preview Markdown
 - Save changes to a repository
-
-You may want to reuse the introduction, interests, skills, and links from your Profile README—but your portfolio should focus on **what you have made**.
 
 ---
 ## Part 1 — Create the Portfolio Repository
 
 1. Sign in to GitHub.
-2. Click your profile picture and choose **Your repositories**.
-3. Click the green **New** button.
-4. For **Repository name**, enter:
+1. Click your profile picture and choose **Your repositories**.
+1. Click the green **New** button.
+1. For **Repository name**, enter:
    ```
    my-portfolio-site
    ```
-5. For the description, enter:
+1. For the description, enter:
    ```
-   My Portfolio Site
+   A portfolio of my projects! 
    ```
-6. Select **Public**.
-7. Turn on **Add a README file**.
-8. Click **Create repository**.
+1. Select **Public**.
+1. Turn on **Add a README file**.
+1. No other options required. 
+1. Click **Create repository**.
 
 This repository will hold the files for your portfolio website.
 
@@ -65,10 +64,9 @@ This repository will hold the files for your portfolio website.
 
 ## Part 2 — Open the GitHub Web Editor
 
-1. Open your new repository.
-2. Press the period key (`.`). If the web editor doesn't open, you can change the `.com` in your browser's address bar to `.dev`. 
-3. If GitHub asks you to sign in to the web editor, follow the prompts.
-4. You should see `README.md` in the file explorer.
+1. Press the period key (`.`). If the web editor doesn't open, you can change the `.com` in your browser's address bar to `.dev`.
+1. If GitHub asks you to sign in to the web editor, follow the prompts.
+1. You should see `README.md` in the file explorer.
 
 You can create and edit all of the site files in this browser-based editor. 
 
@@ -76,19 +74,23 @@ You can create and edit all of the site files in this browser-based editor.
 
 ## Part 3 — Create the Site Configuration
 
-> **As you know, before doing any new work on GitHub you should create a new branch to work in.**
+> **As you know, before doing any new work on GitHub you should create a new branch to work in. Do that first!**
 
 Create a new file at the top level of the repository named exactly:
 
 ```text
 _config.yml
 ```
+To create a new file, use the button in this image. 
+![an image showing a small circle over the create a new file button in vscode.](assets/explorer_icon.png)
 
 Paste this content:
 
 ```yaml
 title: My Portfolio
 description: A portfolio of projects and things I have made.
+url: "https://yourgithubusername.github.io"
+baseurl: "/my-portfolio-site" 
 
 remote_theme: just-the-docs/just-the-docs
 
@@ -96,9 +98,7 @@ plugins:
   - jekyll-remote-theme
 ```
 
-Save the file.
-
-The configuration tells Jekyll to use the **Just the Docs** theme. YAML is sensitive to spacing, so make sure the two spaces before `- jekyll-remote-theme` are preserved.
+The configuration tells Jekyll the title and description of your website, as well as instructs it to use the **Just the Docs** theme. YAML is sensitive to spacing, so make sure the two spaces before `- jekyll-remote-theme` are preserved. Note that the baseurl needs to match your repo name exactly, and replace `yourgithubusername` in url with your GitHub username. 
 
 📖 Reference: [Just the Docs](https://just-the-docs.github.io/just-the-docs/)
 
@@ -112,7 +112,7 @@ Create a new file named:
 index.md
 ```
 
-Paste this starter content:
+Copy and paste this starter content:
 
 ```markdown
 ---
@@ -141,7 +141,7 @@ The section between the triple dashes is called **front matter**. It gives Jekyl
 
 - `title` is the name shown in the navigation.
 - `layout: default` uses the theme's standard page layout.
-- `nav_order` controls the order of the pages in the sidebar.
+- `nav_order` controls the order of the pages in the sidebar. This will be represented with counting numbers. 
 
 ---
 
@@ -153,7 +153,7 @@ Create a new file named:
 projects.md
 ```
 
-Paste this starter content:
+Copy and paste this starter content:
 
 ```markdown
 ---
@@ -187,11 +187,9 @@ Replace the example content with a real project if you have one. If you do not h
 A strong project entry answers:
 
 1. What did you make?
-2. What tools did you use?
-3. What did you learn or accomplish?
-4. Where can someone view it?
-
-Save the file.
+1. What tools did you use?
+1. What did you learn or accomplish?
+1. Where can someone view it?
 
 ---
 
@@ -245,8 +243,6 @@ Replace the example links with links to your own work. Delete sections you do no
 
 If you do not have work in every category, that is okay. A portfolio is a record of your growth, not a list of requirements to complete all at once.
 
-Save the file.
-
 ---
 
 ## Part 7 — Create the About Page
@@ -277,20 +273,18 @@ You can find me on [GitHub](https://github.com/YOUR-USERNAME).
 
 Replace the placeholder text with your own information. You can adapt details from your Profile README, but try to make this page connect your background and interests to the work in your portfolio.
 
-Save the file.
-
 Your site should now have these pages in this order:
 
 1. Home
-2. Projects
-3. Things I've Made
-4. About
+1. Projects
+1. Things I've Made
+1. About
 
 ---
 
-## Part 8 — Save Your Files
+## Part 8 — Commit and Push
 
-Save all of your files in the web editor. The exact button labels may vary slightly depending on GitHub's current interface, but you should save the changes to the repository when prompted.
+The web editor saves changes automatically, so you'll need to commit your changes and push them. Stage all the new files and commit them to your repo with a message that details what was changed. 
 
 Before moving on, confirm that these files appear in the repository:
 
@@ -308,15 +302,15 @@ You can leave `README.md` in the repository. It is the repository's description 
 
 ## Part 9 — Turn On GitHub Pages
 
-1. Return to your repository on GitHub.com.
-2. Click **Settings**.
-3. In the left menu, click **Pages** under **Code and automation**.
-4. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-5. Select the default branch, usually `main`.
-6. Select the folder **/ (root)**.
-7. Click **Save**.
+1. Return to your repository on GitHub.com. You can do this by clicking the blue "GitHub" button in the bottom left of your web editor, or by opening a new tab and navigating there yourself. 
+1. Click **Settings**.
+1. In the left menu, click **Pages** under **Code, planning, and automation**.
+1. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+1. Select the default branch, usually `main`.
+1. Select the folder **/ (root)**.
+1. Click **Save**.
 
-GitHub will now build your Jekyll site and publish it.
+GitHub will now build your Jekyll site and publish it with whatever is pushed to Main. Right now, all your work is in another branch. Open and merge a Pull Request into `main` to see your site built.
 
 📖 Reference: [Configuring a publishing source for GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
@@ -325,19 +319,12 @@ GitHub will now build your Jekyll site and publish it.
 ## Part 10 — Visit and Test Your Site
 
 1. Open the repository's **Actions** tab.
-2. Find the `pages build and deployment` workflow.
-3. Wait for the workflow to finish.
-4. Return to **Settings → Pages**.
-5. Click the link under **Your site is live at**.
+1. Find the `pages build and deployment` workflow.
+1. Wait for the workflow to finish.
+1. Return to **Settings → Pages**.
+1. Click the link under **Your site is live at**.
 
-Test your portfolio by checking that:
-
-- The home page introduces you.
-- The sidebar contains all four pages.
-- The Projects page includes at least one project or placeholder.
-- The Things I've Made page includes at least one creation or placeholder.
-- Your links open the correct destinations.
-- Your About page includes information about you.
+Click your site and click around to see all the pages you've made. 
 
 ---
 
@@ -347,16 +334,11 @@ Spend the rest of the activity making the site feel like yours. Choose at least 
 
 - Add a real GitHub project to **Projects**.
 - Add a blog post, video, article, website, app, or other creation to **Things I've Made**.
-- Add a second project or creation.
-- Rewrite the home page introduction in your own voice.
-- Add a short explanation of what you are currently learning.
-- Add a link to your Profile README.
-- Add a link to another professional or creative profile.
-- Remove template sections that do not describe your work.
-- Add images or screenshots using Markdown.
+- Experiment with different markdown elements like tables or images. 
 - Add a `resume.md` page with a link in the navigation.
+- Try out other [free themes from Jekyl](https://jekyllthemes.io/free)
 
-Whenever you save an update, wait for GitHub Pages to rebuild and then refresh the live site.
+Whenever you make changes to the main branch, your site will update after some GitHub Actions run. Wait for GitHub Pages to rebuild and then refresh the live site.
 
 ---
 
@@ -383,13 +365,3 @@ Whenever you save an update, wait for GitHub Pages to rebuild and then refresh t
 - Add new work as you make it.
 - Do not publish private information such as your home address, personal phone number, passwords, or private API keys.
 - Your portfolio can grow over time. It does not need to be complete today.
-
----
-
-## Reflection Questions
-
-1. How is a portfolio site different from a Profile README?
-2. What is one project or creation you want visitors to notice first?
-3. What information makes a portfolio link useful to someone who has never seen your work?
-4. What will you add to this portfolio next?
-5. What part of building the site would you like to improve later?
